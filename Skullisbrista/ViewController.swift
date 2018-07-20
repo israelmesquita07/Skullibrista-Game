@@ -10,14 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imgStreet: UIImageView!
+    @IBOutlet weak var imgPlayer: UIImageView!
+    @IBOutlet weak var lblInstructions: UILabel!
+    @IBOutlet weak var vwGameOver: UIView!
+    @IBOutlet weak var lblTimePlayed: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        vwGameOver.isHidden = true
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func playAgain(_ sender: UIButton) {
     }
 
 
