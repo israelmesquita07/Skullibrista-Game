@@ -19,11 +19,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="street" translatesAutoresizingMaskIntoConstraints="NO" id="7Kw-kM-yiL">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="street" translatesAutoresizingMaskIntoConstraints="NO" id="7Kw-kM-yiL">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="player0" translatesAutoresizingMaskIntoConstraints="NO" id="oYQ-JS-U19">
-                                <rect key="frame" x="117" y="193.5" width="140" height="280"/>
+                                <rect key="frame" x="117" y="203.5" width="140" height="280"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="oYQ-JS-U19" secondAttribute="height" multiplier="1:2" id="hbU-Fn-RJh"/>
                                     <constraint firstAttribute="width" constant="140" id="rMQ-u7-7E8"/>
@@ -81,19 +82,15 @@
                             <constraint firstItem="Cuw-xw-GSV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="3NK-8s-sGv"/>
                             <constraint firstItem="fNh-rE-Aq2" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="3yo-1I-qjJ"/>
                             <constraint firstItem="Xx9-Bk-CKf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="76U-jt-XAo"/>
-                            <constraint firstItem="oYQ-JS-U19" firstAttribute="centerY" secondItem="7Kw-kM-yiL" secondAttribute="centerY" id="8cC-tP-61J"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Xx9-Bk-CKf" secondAttribute="trailing" id="EIG-0k-LvG"/>
-                            <constraint firstItem="7Kw-kM-yiL" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="HWR-1r-3Yw"/>
-                            <constraint firstItem="7Kw-kM-yiL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="P7h-ar-dEF"/>
-                            <constraint firstItem="oYQ-JS-U19" firstAttribute="centerX" secondItem="7Kw-kM-yiL" secondAttribute="centerX" id="S2W-oS-PxV"/>
                             <constraint firstItem="Xx9-Bk-CKf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="SHo-kY-PRN"/>
                             <constraint firstItem="Cuw-xw-GSV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="ZmX-In-Vgp"/>
                             <constraint firstItem="fNh-rE-Aq2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="aLz-u0-eSJ"/>
-                            <constraint firstItem="7Kw-kM-yiL" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="c0R-7K-WhM"/>
                             <constraint firstItem="fNh-rE-Aq2" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="eqw-bg-sSH"/>
                             <constraint firstItem="fNh-rE-Aq2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="fch-ED-iqa"/>
+                            <constraint firstItem="oYQ-JS-U19" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="oIk-ul-Tsf"/>
+                            <constraint firstItem="oYQ-JS-U19" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="qo3-g7-jcS"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cuw-xw-GSV" secondAttribute="trailing" constant="36" id="vjn-Qe-EhG"/>
-                            <constraint firstItem="7Kw-kM-yiL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="y5a-h3-Fmy"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
