@@ -54,14 +54,38 @@
 		075D0E25210171D3003FC269 /* Skullisbrista */ = {
 			isa = PBXGroup;
 			children = (
-				075D0E26210171D3003FC269 /* AppDelegate.swift */,
-				075D0E28210171D3003FC269 /* ViewController.swift */,
-				075D0E2A210171D3003FC269 /* Main.storyboard */,
+				58772FFB24BF52E5009FE7A2 /* App Start */,
+				58772FFD24BF5300009FE7A2 /* Controller */,
+				58772FFC24BF52F5009FE7A2 /* View */,
 				075D0E2D210171D3003FC269 /* Assets.xcassets */,
-				075D0E2F210171D3003FC269 /* LaunchScreen.storyboard */,
 				075D0E32210171D3003FC269 /* Info.plist */,
 			);
 			path = Skullisbrista;
+			sourceTree = "<group>";
+		};
+		58772FFB24BF52E5009FE7A2 /* App Start */ = {
+			isa = PBXGroup;
+			children = (
+				075D0E26210171D3003FC269 /* AppDelegate.swift */,
+			);
+			path = "App Start";
+			sourceTree = "<group>";
+		};
+		58772FFC24BF52F5009FE7A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				075D0E2A210171D3003FC269 /* Main.storyboard */,
+				075D0E2F210171D3003FC269 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		58772FFD24BF5300009FE7A2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				075D0E28210171D3003FC269 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,11 +115,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = Israel3D;
 				TargetAttributes = {
 					075D0E22210171D3003FC269 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 1130;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -177,6 +202,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +210,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -234,6 +261,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +269,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -280,7 +309,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = israel3D.Skullisbrista;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -295,7 +324,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = israel3D.Skullisbrista;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
